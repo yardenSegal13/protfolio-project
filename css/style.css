@@ -51,20 +51,23 @@ h2 {
   font-size: 36px;
   color: #272142;
 }
-.about-hero {
+.content-container {
   padding: 150px 20px;
 }
 
-.about-hero h1 {
+.content h1 {
   font-size: 64px;
 }
 
-.about-hero h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--p-font);
 }
+.content h3 {
+  font-family: var(--p-font);
+}
 
-.about-hero-p {
+.content {
   margin: 50px;
 }
 
@@ -121,7 +124,7 @@ h2 {
     padding: 80px 20px;
   }
 
-  .about-hero {
+  .content-container {
     padding: 80px 20px;
     text-align: center;
   }
