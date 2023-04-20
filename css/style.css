@@ -60,6 +60,13 @@ h2 {
   padding: 18px 46px;
 }
 
+.btn-main:hover {
+  background-color: var(--primary-color);
+}
+.btn-detail:hover {
+  border: 1px solid var(--primary-color);
+}
+
 .btn-detail {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
