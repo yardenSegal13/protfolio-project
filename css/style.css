@@ -1,6 +1,8 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f9f7fe;
+  --primary-font: "Playfair Display", serif;
+  --p-font: "Poppins", sans-serif;
 }
 
 h1,
@@ -9,12 +11,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
   font-weight: 700;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--p-font);
   font-weight: 400;
   margin: 0;
   font-size: 16px;
@@ -30,7 +32,7 @@ h2 {
 }
 
 .hero h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--p-font);
   font-size: 24px;
   font-weight: 400;
   color: #272142;
@@ -49,9 +51,25 @@ h2 {
   font-size: 36px;
   color: #272142;
 }
+.about-hero {
+  padding: 150px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  font-family: var(--p-font);
+}
+
+.about-hero-p {
+  margin: 50px;
+}
 
 .btn-main {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--p-font);
   font-weight: 500;
   font-size: 18px;
   color: white;
@@ -68,7 +86,7 @@ h2 {
 }
 
 .btn-detail {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--p-font);
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
@@ -81,6 +99,10 @@ h2 {
 
 .app-description {
   padding: 100px 50px;
+}
+
+.myself-photo img {
+  border-radius: 20px;
 }
 
 @media (max-width: 960px) {
