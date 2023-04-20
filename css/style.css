@@ -31,6 +31,38 @@ h2 {
   font-size: 64px;
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  text-decoration: none;
+  margin: 20px;
+  font-family: var(--p-font);
+  line-height: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+.active {
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.nav-container {
+  margin: 20px 50px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
 .hero h2 {
   font-family: var(--p-font);
   font-size: 24px;
@@ -127,5 +159,13 @@ h2 {
   .content-container {
     padding: 80px 20px;
     text-align: center;
+  }
+
+  .nav-container {
+    margin: 10px;
+  }
+
+  nav li {
+    margin: 8px;
   }
 }
