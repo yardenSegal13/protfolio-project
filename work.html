@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Patricia Pereira- frontend developer based in Portugal. Checl out my projects! I keep on updating them."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,21 +30,55 @@
       src="https://kit.fontawesome.com/b926a88753.js"
       crossorigin="anonymous"
     ></script>
-    <title>About me- Patricia Pereira</title>
+    <title>My projects- Patricia Pereira</title>
   </head>
   <body>
+    <div class="nav-container">
+      <nav class="d-flex justify-content-between">
+        <div>
+          <img
+            src="/images/logo.png"
+            alt="she-codes-logo"
+            class="logo d-none d-md-block"
+            title="Home page"
+          />
+          <img
+            src="/images/she-codes-small.jpg"
+            alt="she-codes-logo-small"
+            class="logo d-block d-md-none"
+            title="Home page"
+          />
+        </div>
+        <ul>
+          <li><a href="/"  title="Home page">Home</a></li>
+          <li><a href="/about.html" title="about Patricia">About</a></li>
+          <li><a href="/work.html" class="active" title="Patricia's work">Work</a></li>
+          <li><a href="/contact.html" title="contact Patricia">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="container content-container">
       <h1 class="m-5">Take a look at what I've been working on!</h1>
       <div class="row">
         <div class="col-md-6">
-          <img src="/images/yogurt.png" alt="" class="img-fluid" />
+          <img
+            src="/images/yogurt.png"
+            alt="Yogurt-photo"
+            class="img-fluid"
+            title="Yogurt project"
+          />
           <div class="content">
             <h3 class="text-center">Yogurt Project</h3>
             <p class="text-muted text-center">Frontend Developer</p>
           </div>
         </div>
         <div class="col-md-6">
-          <img src="/images/weather.png" alt="" class="img-fluid" />
+          <img
+            src="/images/weather.png"
+            alt="Weather-photo"
+            class="img-fluid"
+            title="Weather project"
+          />
           <div class="content">
             <h3 class="text-center">Weather App</h3>
             <p class="text-muted text-center">Frontend Developer</p>
@@ -49,20 +87,78 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <img src="/images/dictionary.png" alt="" class="img-fluid" />
+          <img
+            src="/images/dictionary.png"
+            alt="dictionary-photo"
+            class="img-fluid"
+            title="Dictionary project"
+          />
           <div class="content">
             <h3 class="text-center">Dictionary</h3>
             <p class="text-muted text-center">Frontend Developer</p>
           </div>
         </div>
         <div class="col-md-6">
-          <img src="/images/translation.png" alt="" class="img-fluid" />
+          <img
+            src="/images/translation.png"
+            alt="translation-photo"
+            class="img-fluid"
+            title="Translation project"
+          />
           <div class="content">
             <h3 class="text-center">Translation</h3>
             <p class="text-muted text-center">Frontend Developer</p>
           </div>
         </div>
       </div>
+     <footer>
+        <div class="d-none d-md-flex justify-content-between lets-talk-block">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div class="work-inquiry-button">
+            <a
+              href="/contact.html"
+              class="btn btn-main"
+              title="Contact Patricia"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="text-center email-link mb-5">
+          <a href="mailto:Patricia@gmail.com" title="Email-me"
+            >Patricia@gmail.com</a
+          >
+        </div>
+        <ul class="d-flex justify-content-center social-links">
+          <a
+            href="https://github.com/yardenSegal13"
+            title="Patricia's github"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a href="/" title="Patricia's twitter"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/yardensegal1/"
+            title="Patricia's instagram"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </ul>
+        <p class="text-center p-5">
+          Coded with ❤️ by Yarden Segal and is
+          <a
+            href="https://github.com/yardenSegal13/protfolio-project"
+            title="Yarden's github"
+            target="_blank"
+            >open source</a
+          >
+        </p>
+      </footer>
+    </div>
     </div>
   </body>
 </html>
